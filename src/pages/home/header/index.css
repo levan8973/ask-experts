@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  padding: 16px 75px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-btn {
+  display: flex;
+  gap: 27px;
+}

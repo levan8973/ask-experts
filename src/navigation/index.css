@@ -1,0 +1,19 @@
+.nav__list {
+  display: flex;
+  gap: 30px;
+}
+.nav__list li {
+  list-style-type: none;
+}
+
+.nav__link {
+  color: var(--gray-800, #4a556c);
+  text-align: right;
+  font-family: Kumbh Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 160% */
+  letter-spacing: -0.3px;
+  text-decoration: none;
+}

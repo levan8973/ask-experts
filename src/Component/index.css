@@ -1,0 +1,13 @@
+.btn {
+  border: none;
+  border-radius: 4px;
+  background: #20ad96;
+  padding: 11px 16px;
+  color: #fff;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+}
