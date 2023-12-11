@@ -1,0 +1,114 @@
+.accordion__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding: 96px 0 96px;
+}
+.accordion__items {
+  max-width: 790px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.accordion__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.accordion__heading {
+  color: #333461;
+  margin: 0;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px; /* 91.667% */
+  letter-spacing: -0.96px;
+}
+.accordion__text {
+  color: #4a556c;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.accordion__content {
+  color: #4a556c;
+  margin: 0;
+  max-width: 720px;
+  width: 100%;
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.accrdion__title {
+  color: var(--gray-900, #101828);
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.accordion__footer {
+  border: none;
+  border-radius: 16px;
+  background: #faf8f6;
+  max-width: 1216px;
+  width: 100%;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.accordion__footer-elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.accordion__footer-title {
+  color: #333461;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 30px; /* 150% */
+}
+.accordion__footer-text {
+  color: #4a556c;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 155.556% */
+}
+.accordion__btn {
+  border-radius: 8px;
+  border: 1px solid #20ad96;
+  color: var(--White, #fff);
+  font-family: Kumbh Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  background: #20ad96;
+  padding: 9px 18px;
+  max-width: 250px;
+  width: 100%;
+  cursor: pointer;
+}

@@ -1,12 +1,17 @@
 import React from "react";
-import Header from "./pages/home/header/Header";
-import Main from "./pages/home/main/Main";
-import Footer from "./pages/home/footer/Footer";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./Component/header/Header";
+import HomeMain from "./pages/home/main/HomeMain";
+import Footer from "./Component/footer/Footer";
+import Services from "./pages/services/Services";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <Routes>
+        <Route path="/" Component={HomeMain} />
+        <Route path="/Services" Component={Services} />
+      </Routes>
       <Footer />
     </div>
   );

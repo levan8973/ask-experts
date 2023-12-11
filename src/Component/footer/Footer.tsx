@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Button from "../../../Component/Button";
-import { ReactComponent as Logo } from "../../../icon/Logo.svg";
+import Button from "../Button";
+import { ReactComponent as Logo } from "../../icon/Logo.svg";
 import "./index.css";
 
 interface FooterProps {

@@ -1,0 +1,41 @@
+.services__card {
+  display: flex;
+  flex-direction: column;
+  gap: 76px;
+  align-items: center;
+  padding: 104px 0 40px;
+}
+.services__card-heading {
+  max-width: 660px;
+  width: 100%;
+  margin: 0;
+  color: #333461;
+  text-align: center;
+  font-family: Kumbh Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.48px;
+}
+.services__card-elements {
+  max-width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.services__card-elements > div {
+  flex-basis: 48%;
+  margin-bottom: 20px;
+}
+
+.services__card-elements > :nth-child(1),
+.services__card-elements > :nth-child(3) {
+  margin-top: -70px;
+}
+
+.services__card-elements > div:hover span {
+  color: #20ad96;
+}

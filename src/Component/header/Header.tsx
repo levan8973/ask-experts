@@ -1,9 +1,9 @@
 import React from "react";
 import "./index.css";
-import Navigation from "../../../navigation/Navigation";
-import Button from "../../../Component/Button";
-import HeaderContent from "./headerContent/HeaderContent";
-import { ReactComponent as Logo } from "../../../icon/Logo.svg";
+import Navigation from "../../navigation/Navigation";
+import Button from "../Button";
+
+import { ReactComponent as Logo } from "../../icon/Logo.svg";
 
 const Header: React.FC = () => {
   const btnText: string = "Get your free guide now";
@@ -17,7 +17,6 @@ const Header: React.FC = () => {
           <Button className="btn" text={btnText} />
         </div>
       </nav>
-      <HeaderContent />
     </header>
   );
 };
